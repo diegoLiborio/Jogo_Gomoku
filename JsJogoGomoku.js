@@ -13,7 +13,9 @@ for (var j = 0; j <15 ; j++) {
 document.write("</table>");
 
 var cont=1;
-
+function reiniciar() {
+		location.reload();
+}
 function ola(diego) {
 
 	if(cont%2 != 0){
