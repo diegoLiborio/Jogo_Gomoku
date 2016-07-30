@@ -1,0 +1,70 @@
+#jogadorVez{
+	position: relative;
+	background-size: 5px 5px;
+	border: 1px solid gray;
+	border-radius: 6px;
+}
+
+#jogadorVez td{
+	border: 1px solid gray;
+}
+
+.casas{
+	padding: 0px;
+	border: 0px;
+}
+#tabela{
+	padding: 1px;
+	border-collapse:collapse;
+	float: left;
+}
+
+#bola{
+	opacity: 0.2;
+}
+
+#td1{
+	background: lightgray;
+	width:120px;
+	height:20px;
+	padding:10px;
+
+	border:1px;
+}
+
+.cel{
+	text-align: center;
+	background: white;
+	width:120px;
+	height:20px;
+	padding:10px;
+	border:1px;
+}
+
+#xis{
+	margin-right: 0.1;
+}
+button{
+	background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 3px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+     color: #616165;
+     display: inline;
+     font-family: "Trebuchet MS";
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     left: 50px;
+     width: 80px;
+}
